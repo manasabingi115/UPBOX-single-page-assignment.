@@ -2,6 +2,8 @@ import "./styles.css";
 import Header from "./Header";
 import SectionOne from "./SectionOne";
 import SectionTwo from "./SectionTwo";
+import SectionThree from "./SectionThree";
+import SectionFour from "./SectionFour";
 
 export default function App() {
   return (
@@ -9,6 +11,8 @@ export default function App() {
       <Header />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
+      <SectionFour />
     </div>
   );
 }
