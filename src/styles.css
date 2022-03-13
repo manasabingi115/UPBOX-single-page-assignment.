@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: lightblue;
+  background-color: white;
   padding: 13px 0px;
   color: black;
 }
@@ -312,19 +312,41 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 400px) {
-  .menu-bar {
-    display: none;
+@media screen and (max-width: 820px) {
+  .logo {
+    margin-left: 30px;
   }
-  .menu-icon {
-    display: unset;
+  .single-menu-option {
+    margin-right: 15px;
   }
-  .social-media-icons-parent {
-    display: none;
-  }
-}
-@media screen and (max-width: 770px) {
   .sec-one {
+    padding: 90px 20px 20px 45px;
+  }
+  .sec-one-div-1 {
+    width: 60%;
+  }
+  .sec-two {
+    padding: unset;
+  }
+  .sec-three-text {
+    width: 50%;
+  }
+  .sec-three-part-2 {
+    width: 50%;
+    margin-left: 45%;
+  }
+  .sec-three-img-2 {
+    width: unset;
+  }
+  .social-posts {
+    width: 45%;
+    flex-basis: auto;
+  }
+  .list {
+    width: 45%;
+    flex-basis: auto;
+  }
+  /* .sec-one {
     padding: 85px 20px 20px 20px;
   }
   .sec-one-div-1 {
@@ -345,5 +367,66 @@
   }
   .sec-two {
     padding: 0px 15px;
+  } */
+}
+
+@media screen and (max-width: 500px) {
+  .menu-bar {
+    display: none;
+  }
+  .menu-icon {
+    display: unset;
+    font-size: 35px;
+    margin-right: 18px;
+  }
+  .social-media-icons-parent {
+    display: none;
+  }
+  .sec-one {
+    flex-direction: column;
+    padding: 100px 20px 20px 40px;
+  }
+  .sec-one-div-1 {
+    width: unset;
+  }
+  .logo {
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .sec-one-div-2 {
+    width: unset;
+    margin-top: 30px;
+  }
+  .sec-two {
+    padding: 15px;
+  }
+  .sec-two-elements {
+    flex-direction: column;
+  }
+  .sec-two-div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .sec-three-part {
+    flex-direction: column;
+  }
+  .sec-three-img,
+  .sec-three-text {
+    width: unset;
+  }
+  .sec-three-part-2 {
+    width: unset;
+    margin-left: unset;
+  }
+  .sec-three-text-2 {
+    margin-left: 11%;
+  }
+  .sec-three {
+    padding: 15px;
+  }
+  .social-posts,
+  .list {
+    width: unset;
+    flex-basis: unset;
   }
 }

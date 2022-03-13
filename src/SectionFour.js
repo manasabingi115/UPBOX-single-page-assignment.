@@ -30,7 +30,7 @@ export default function SectionFour() {
       <div className="columns is-multiline">
         {Data.map((data, index) => (
           <div
-            className="column is-one-fourth is-flex is-flex-direction-column 
+            className="social-posts column is-one-fourth is-flex is-flex-direction-column 
               is-align-items-center is-justify-content-space-around"
             key={index}
           >
