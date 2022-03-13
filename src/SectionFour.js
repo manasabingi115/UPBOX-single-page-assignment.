@@ -1,11 +1,4 @@
 import React from "react";
-// import {
-//   MDBCard,
-//   MDBCardBody,
-//   MDBCardTitle,
-//   MDBCardText,
-//   MDBCardImage
-// } from "mdb-react-ui-kit";
 
 const Data = [
   {
@@ -51,7 +44,9 @@ export default function SectionFour() {
           </div>
         ))}
       </div>
-      <button>FOLLOW US ON INSTAGRAM</button>
+      <button className="sec-two-button sec-four-button">
+        FOLLOW US ON INSTAGRAM
+      </button>
     </div>
   );
 }
